@@ -1005,8 +1005,9 @@ input[type="submit"] {
     #mt_banner .banner_caption_text .signature {
       margin-bottom: 0; }
       #mt_banner .banner_caption_text .signature img {
-        width: 14%;
-        margin-top: 15px; }
+        width: 40%;
+        margin-top: 10px;
+        margin-left: -10%; }
     #mt_banner .banner_caption_text .social_icons {
       text-align: left !important; }
       #mt_banner .banner_caption_text .social_icons a {
