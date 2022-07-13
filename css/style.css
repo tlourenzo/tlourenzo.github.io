@@ -2270,6 +2270,9 @@ input[type="submit"] {
 #mt_footer {
   padding: 6px 0;
   background-color: #212529;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   /* =========== Copyright =========== */ }
   @media only screen and (max-width: 767px) {
     #mt_footer .col-sm-6 {
@@ -3159,3 +3162,12 @@ aside .widget_tag_cloud ul {
 /* ================================== */
 
 /*# sourceMappingURL=style.css.map */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
